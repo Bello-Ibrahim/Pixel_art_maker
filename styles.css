@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    background-color: rgb(211, 233, 243);
+  }
+  /*title styling*/
+  h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+  }
+  
+
+  h4 {
+    margin: 1em 0 0.75em;
+  }
+  /* italized word style*/
+  em {
+    font-size: 12px;
+    color: silver;
+  }
+  
+  table,
+  tr,
+  td {
+    border: solid black 1px;
+  }
+  
+  .isCanvas {
+    background-color : white;
+  }
+  
+
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  tr {
+    height: 20px;
+  }
+  
+  td {
+    min-width: 20px;
+    box-sizing: border-box;
+  }
+  
+  input[type=number] {
+    width: 6em;
+    border: 1px solid #dcdcdc;
+  }
+  
+  .submit, .isColor, .editMode, .Redraw {
+    box-shadow: inset 0px 1px 0 0 #fff;
+    background: linear-gradient(#e2e1e1 5%, #7e7d7d 100%);
+    border-radius: 6px;
+    border: 3px solid #dcdcdc;
+    font-weight: bold;
+    padding: 6px 24px;
+    cursor: pointer;
+    display: block;
+    margin-top: 1em;
+  }
+  
+  .colorPallete {
+    border: 1px solid black;
+    -webkit-appearance: none;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .colorPallete::-webkit-color-swatch {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+  }
+  .colorPallete::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+  }
+  
+  .inputs {
+    text-align: left;
+    margin-left: 8em;
+    margin-top: 5.35em;
+    border-radius: 7px;
+    border: 1px solid #dcdcdc;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+    width: 200px;
+    background-color : white;
+  }
+  
+  .column {
+    float: left;
+    width: 35%;
+  }
+  
+  .column:last-of-type {
+    width: auto;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
